@@ -11,6 +11,7 @@ body{
     justify-content: center;
     min-height: 100vh;
     background-color: rgb(134, 71, 71);
+
 }
 
 .stopwatch{
@@ -23,6 +24,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 .timer{
@@ -40,4 +42,8 @@ body{
 i{
     padding: 0 1rem;
     cursor: pointer;
+}
+
+.div{
+    margin-left: 20px;
 }

@@ -55,4 +55,7 @@ resetIcon.addEventListener("click",()=>{
      timer.textContent = "00:00:00";
      playIcon.classList.remove("fa-pause");
      playIcon.classList.add("fa-play");
+      evt.preventDefault();
 });
+
+
